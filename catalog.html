@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров - TechShop</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">TechShop</h1>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="catalog-section">
+            <div class="container">
+                <h2>Каталог товаров</h2>
+                
+                <div class="catalog-filters">
+                    <h3>Категории:</h3>
+                    <ul class="category-list">
+                        <li><a href="sort.php?category=laptops">Ноутбуки</a></li>
+                        <li><a href="sort.php?category=smartphones">Смартфоны</a></li>
+                        <li><a href="sort.php?category=all">Все товары</a></li>
+                    </ul>
+                </div>
+
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="assets/images/laptop.jpg" alt="Ноутбук ASUS VivoBook 15">
+                        <h3>Ноутбук ASUS VivoBook 15</h3>
+                        <p class="price">75 000 ₽</p>
+                        <p class="description">Мощный ноутбук для работы и учёбы</p>
+                        <a href="sort.php?category=laptops" class="btn">Подробнее</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/images/smartphone.jpg" alt="Смартфон iPhone 15">
+                        <h3>Смартфон iPhone 15</h3>
+                        <p class="price">85 000 ₽</p>
+                        <p class="description">Флагманский смартфон Apple</p>
+                        <a href="sort.php?category=smartphones" class="btn">Подробнее</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/images/laptop.jpg" alt="Ноутбук Lenovo IdeaPad">
+                        <h3>Ноутбук Lenovo IdeaPad</h3>
+                        <p class="price">65 000 ₽</p>
+                        <p class="description">Надёжный ноутбук для повседневных задач</p>
+                        <a href="sort.php?category=laptops" class="btn">Подробнее</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/images/smartphone.jpg" alt="Смартфон Samsung Galaxy">
+                        <h3>Смартфон Samsung Galaxy</h3>
+                        <p class="price">70 000 ₽</p>
+                        <p class="description">Смартфон с отличной камерой</p>
+                        <a href="sort.php?category=smartphones" class="btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TechShop. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
